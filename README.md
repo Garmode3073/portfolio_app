@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Portfolio Website Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This project is a dynamic portfolio website that serves as a resume for a client. The website will allow the client to showcase their work and skills, with a backend powered by Firebase to facilitate easy updates without the need for code changes.
 
-## Available Scripts
+## Milestones
+### Milestone 1: Project Initialization
+- **Description:** Set up the project structure and initial configurations.
 
-In the project directory, you can run:
+### Milestone 2: UI Design Completion
+- **Description:** Complete the design of the user interface, including wireframes and layout.
 
-### `npm start`
+### Milestone 3: Backend Integration
+- **Description:** Integrate Firebase for data storage and retrieval.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Milestone 4: Testing and Deployment
+- **Description:** Conduct testing on different devices and deploy the website to Firebase Hosting.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Task Breakdown
+### Tasks
+- **Task 1:** Define Milestones (2 hours)
+- **Task 2:** Design Wireframes (4 hours)
+- **Task 3:** Set Up Firebase (4 hours)
+- **Task 4:** Create Flutter Project (1 hour)
+- **Task 5:** Implement MVC Structure (3 hours)
+- **Task 6:** Build UI for Splash Screen (2 hours)
+- **Task 7:** Implement Navbar (3 hours)
+- **Task 8:** Create Model Classes (2 hours)
+- **Task 9:** Create View Classes (3 hours)
+- **Task 10:** Create Controller Classes (3 hours)
+- **Task 11:** Build About Me Section (3 hours)
+- **Task 12:** Build Experience Section (4 hours)
+- **Task 13:** Build Projects Section (4 hours)
+- **Task 14:** Implement Infinite Scrolling (3 hours)
+- **Task 15:** Set Up SEO (3 hours)
+- **Task 16:** Integrate Google and Firebase Analytics (4 hours)
+- **Task 17:** Testing and Debugging (4 hours)
+- **Task 18:** Deployment to Firebase Hosting (2 hours)
+- **Task 19:** Documentation (3 hours)
 
-### `npm test`
+## Technologies Used
+- **React js:** For building the user interface.
+- **Node js:** For connecting the user interface with Backend.
+- **Firebase:** For backend services and data storage.
+- **Google Analytics:** For tracking user interactions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone [repository-url]
+   ```
+2. Navigate into the project directory:
+    ```bash
+   cd [project-directory]
+    ```
+3. Run the following command to install dependencies:
+    ```bash
+    npm install react-router-dom firebase
+    npm install -D tailwindcss postcss autoprefixer
+    npx tailwindcss init
+    ```
+4. Set up Firebase and integrate it into the project.
 
-### `npm run build`
+## Deployment
+To deploy the project to Firebase Hosting, follow these steps:
+1. Run the command:
+    ```bash
+   firebase deploy
+    ```
+2. Visit the provided URL to view the live website.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributing
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Submit a pull request detailing your changes.
